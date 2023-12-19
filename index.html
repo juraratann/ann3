@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Lab04 : Form</title>
+</head>
+<body>
+  <h1>Lab04 : Form</h1>
+  <hr>
+  <form class="login-form">
+  <div class="form-style-2">
+    <div class="form-style-2-heading">โปรดใส่ชื่อเเละข้อมูล</div>
+    <label for="username"><span>Username <span class="required">*</span></span><input type="text" class="input-field" name="username" value="" /></label>
+    <label for="password"><span>Password <span class="required">*</span></span><input type="text" class="input-field" name="password" value="" /></label>
+    <label><span> <span></span></span>
+        <select name="role" id="role">
+        <option value=""selected disabled>selected Role</option>
+        <option value="buyer">Buyer</option>
+        <option value="seller">Seller</option>
+        <option value="visitor">Visitor</option>
+    </select></label>
+   
+    <label><span> </span><input type="submit" value="Login" /></label>
+    </form>
+    </div>
+  <script src="main.js"></script>
+</body>
+</html>
